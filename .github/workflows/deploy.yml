@@ -32,6 +32,7 @@ jobs:
         with:
           hugo-version: latest
           extended: true
+          submodules: true
 
       - name: Build
         run: hugo --minify
